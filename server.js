@@ -12,5 +12,5 @@ app.use(bodyParser.json());
 
 app.use('/api', require('./routes/api'));
 
-//app.listen(3000);
+app.listen(3000);
 //console.log('API is running on 3000');
